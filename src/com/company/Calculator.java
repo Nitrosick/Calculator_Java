@@ -15,7 +15,7 @@ public class Calculator {
         double result = 0;
         boolean minus = false;
         System.out.println("Введите выражение");
-        //try {
+        try {
             String startTask = scan.nextLine().replace(" ", ""); // Ввод выражения
 
             //Проверка на первое отрицательное число
@@ -53,10 +53,10 @@ public class Calculator {
 
             System.out.println("Результат: " + result);
             solution();
-        //}
-        /*catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("Ошибка ввода");
             solution();
-        }*/
+        }
     }
 }
